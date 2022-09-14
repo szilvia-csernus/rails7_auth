@@ -1,0 +1,13 @@
+<% if flash[:alert] %>
+  <div ><%= flash[:alert] %></div>
+<% end %>
+<% if flash[:notice] %>
+  <div ><%= flash[:notice] %></div>
+<% end %>
+<h1>StaticPages#home</h1>
+<p>Find me in app/views/static_pages/home.html.erb</p>
+<p>Sign Up Here: <%= link_to sign_up_url%></p>
+<p>Login Here: <%= link_to login_url%></p>
+<p>User account: <%= link_to account_url%></p>
+
+
